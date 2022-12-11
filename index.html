@@ -1,0 +1,77 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<title>The Hacker</title>
+</head>
+<body>
+<header style="position: relative;">
+<div class="top" class="header" id="home">
+<div class="bar  card left-align large heeder-large-screen" style="background-color: Black;" >
+<a class="bar-item button hide-medium hide-large right padding-large hover-black large "
+href="javascript:void(0);" onclick="myFunction()" 
+title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+<a href="#home" class="bar-item button padding-large  hover-black">Vulnerable Web Application</a>
+<div >
+<a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black" >About</a>
+<a href="#attacks" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Attacks</a>        
+<a href="#attacksperformed" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Attacks Performed</a>
+<a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
+</div>
+</div>
+
+<div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
+<a href="#about" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">About</a>
+<a href="#attacks" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">Attacks</a>
+<a href="#attacksperformed" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Attacks Performed</a>
+<a href="#contactus" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+</div>
+</div>
+</header>
+<section>
+<div class="hero" id="about">
+<div class="hero-description">
+<div class="hero-text">
+<h1 class="hero-title">Vulnerable Web Application</h1><br>
+</div>
+</div>
+</div>
+</section>
+<main style="padding-bottom:40px ;">
+<h2 class="title" id="attacks">List of Attacks</h2>
+<div class="attacks">
+<div class="attacks-list">
+<img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/sql-injection-2442355-2027904.png" alt="sql Injection" style="width:100px; height: 100%px;"/>
+<button class="button" type="button" name="_button" onclick="location.href='sql/sqlmainpage2.html';">SQL Injection</button>
+</div>
+<div class="attacks-list">
+<img src="https://2.bp.blogspot.com/-btVFbcZCSws/WgZETr4IegI/AAAAAAAAAL8/LQxAtrVav6kPt239xthQvuKjyCPUf1X6gCEwYBhgL/s1600/lmbs_xss.png" alt="xss" style="width:100px; height: 200px;"/>
+<button class="button" type="button" name="_button" onclick="location.href='xss/xssmainpage2.html';">XSS</button>
+</div>
+<div class="attacks-list">
+<img src="https://gamepedia.cursecdn.com/gamia_gamepedia_en/b/bd/Attack-page.svg?version=588f97a6422924c901320d202967a062" alt="fileincl" style="width:100px; height: 100px;"/>
+<button class="button" type="button" name="_button" onclick="location.href='fileinc/pages/fileinc2.html';">File Inclusion</button>
+</div>
+<div class="attacks-list">
+<img src="https://cdn.pixabay.com/photo/2012/04/02/17/46/upload-25068_640.png" alt="fileupl" style="width:100px; height: 100px;"/>
+<button class="button" type="button" name="_button" onclick="location.href='fileupl/fileupl2.html';">File Upload</button>
+</div>
+<div class="attacks-list">
+<img src="https://mystreet7.com/wp-content/uploads/2013/12/command-prompt-logo.png" alt="commandexec" style="width:100px; height: 100px;"/>
+<button class="button" type="button" name="comexec_button" onclick="location.href='commandexe/commandexec1.html';">Command Execution</button>
+</div>
+<div class="attacks-list">
+    <img src="https://www.pinclipart.com/picdir/big/80-800546_this-icon-represents-settings-settings-icon-transparent-clipart.png" alt="setup" style="width:100px; height: 100px;"/>
+    <button class="button" type="button" name="_button" onclick="location.href='index1.php';">Setup</button>
+    </div>
+</div>     
+
+</body>
+</html>
